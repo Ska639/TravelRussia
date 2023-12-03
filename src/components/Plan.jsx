@@ -7,7 +7,7 @@ const Plan = () => {
       <div className="grid grid-cols-2 grid-rows-6 h-[120vh]">
         <img
           className="row-span-3 object-cover w-full h-full p-2"
-          src="http://rasfokus.ru/images/photos/medium/d900838c268b320fbaaea13ba06f7f5f.jpg"
+          src="https://img.freepik.com/premium-photo/vertical-photo-of-cityscape-of-au-pont-rouge-store-red-bridge-above-moyka-river-and-pink-cloudy-sunset-historical-city-center-of-saint-petersburg-russia-travel-destination-wanderlust-concept_549949-52.jpg?w=360"
           alt=""
         />
         <img
