@@ -37,14 +37,15 @@ const Plan = () => {
           Планируй предстоящее путешествие
         </h3>
         <p className="text-2xl py-6">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus,
-          quisquam?
+          Открывайте Россию с нами: вдохновляющие города, богатство культуры,
+          удивительные пейзажи.
         </p>
         <p className="pb-6">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam nisi
-          pariatur odit beatae quisquam facilis quaerat repudiandae, illum hic
-          sed. Cumque facilis culpa laborum consequatur officiis dolore
-          necessitatibus distinctio laudantium?
+          Присоединяйтесь к нам в этом увлекательном путешествии по России!
+          Поднимайтесь на высоты Кремля, гуляйте по набережным Волги,
+          погружайтесь в атмосферу культурных событий и наслаждайтесь
+          великолепием российских городов. Готовы ли вы к незабываемым
+          приключениям? Давайте начнем этот увлекательный путь вместе!
         </p>
         <div>
           <button className="border-black mr-4 hover:shadow-xl">

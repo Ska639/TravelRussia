@@ -9,15 +9,15 @@ const Nature = () => {
       >
         <h3 className="text-2xl font-bold">Колорит НАШЕЙ родины</h3>
         <p className="pt-4">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates
-          accusantium ut facilis tempore sunt optio consectetur fugiat culpa
-          dolores sapiente.
+          А это: разнообразие культур, величественные пейзажи, традиции,
+          гостеприимство, история и уникальный менталитет, создающие
+          неповторимую русскую атмосферу.
         </p>
       </div>
       <div className="grid grid-cols-2 col-span-2 gap-2">
         <img
           className="object-cover w-full h-full"
-          src="https://i.mycdn.me/i?r=AyH4iRPQ2q0otWIFepML2LxR45hHxbGxKFq5zUAF_5exLw"
+          src="https://cs8.pikabu.ru/post_img/big/2016/06/17/9/1466178270141880448.jpg"
           alt="/"
         />
         <img
