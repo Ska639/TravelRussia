@@ -1,6 +1,12 @@
 import React from "react";
 
 const Plan = () => {
+  const handleMore = () => {
+    window.open("https://russiatourism.ru/tours/", "_self");
+  };
+  const handleCalculate = () => {
+    window.open("https://www.aviasales.ru/map", "_self");
+  };
   return (
     <div className="max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4">
       {/* Left Side*/}
@@ -48,10 +54,16 @@ const Plan = () => {
           приключениям? Давайте начнем этот увлекательный путь вместе!
         </p>
         <div>
-          <button className="border-black mr-4 hover:shadow-xl">
+          <button
+            className="border-black mr-4 hover:shadow-xl"
+            onClick={handleMore}
+          >
             Узнать больше
           </button>
-          <button className="bg-black text-white border-black hover:shadow-xl">
+          <button
+            className="bg-black text-white border-black hover:shadow-xl"
+            onClick={handleCalculate}
+          >
             Рассчитай свою поездку
           </button>
         </div>

@@ -54,7 +54,7 @@ const ImageSlider = () => {
       </div>
       {/* RIGHT ARROW */}
       <div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 group-hover:bg-black/20 text-white cursor-pointer ">
-        <div onClick={prevSlide}>
+        <div onClick={nextSlide}>
           <BsChevronCompactRight size={30} />
         </div>
       </div>

@@ -3,6 +3,22 @@ import { TiThMenu } from "react-icons/ti";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
+  const handleTours = () => {
+    window.open("https://russiatourism.ru/tours/", "_self");
+  };
+  const handleHotels = () => {
+    window.open("https://russiatourism.ru/hotels/", "_self");
+  };
+  const handleVisas = () => {
+    window.open("https://russiatourism.ru/visas/", "_self");
+  };
+  const handleContacts = () => {
+    window.open("https://russiatourism.ru/about/", "_self");
+  };
+  // const handleCount = () => {
+  //   window.open("https://www.aviasales.ru/", "_self");
+  // };
+
   const handleNav = () => {
     setNav(!nav);
   };
@@ -28,11 +44,21 @@ const NavBar = () => {
         }
       >
         <ul className="flex flex-col fixed w-full h-full items-center justify-center">
-          <li className="font-bold text-3xl p-8">Домашняя страница</li>
-          <li className="font-bold text-3xl p-8">Города</li>
-          <li className="font-bold text-3xl p-8">Гостинницы</li>
-          <li className="font-bold text-3xl p-8">Услуги</li>
-          <li className="font-bold text-3xl p-8">Контакты</li>
+          <li className="font-bold text-3xl p-8" onClick={handleNav}>
+            Домашняя страница
+          </li>
+          <li className="font-bold text-3xl p-8" onClick={handleTours}>
+            Туры
+          </li>
+          <li className="font-bold text-3xl p-8" onClick={handleHotels}>
+            Отели
+          </li>
+          <li className="font-bold text-3xl p-8" onClick={handleVisas}>
+            Визы
+          </li>
+          <li className="font-bold text-3xl p-8" onClick={handleContacts}>
+            Контакты
+          </li>
         </ul>
       </div>
     </div>

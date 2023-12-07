@@ -3,16 +3,47 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { TiSocialPinterest } from "react-icons/ti";
 
 const Footer = () => {
+  const handleAbout = () => {
+    window.open("https://russiatourism.ru/about/", "_self");
+  };
+  const handleBlog = () => {
+    window.open("https://russiatourism.ru/tours/", "_self");
+  };
+  const handleJob = () => {
+    window.open(
+      "https://hh.ru/search/vacancy?from=employerPage&employer_id=588914&hhtmFrom=employer",
+      "_self"
+    );
+  };
+  const handleNews = () => {
+    window.open("https://russiatourism.ru/news/", "_self");
+  };
+  const handlePartners = () => {
+    window.open("https://www.aviasales.ru/", "_self");
+  };
+  const handleSubscribe = () => {
+    alert("Подписка оформлена!!!");
+  };
   return (
     <div className="w-full mt-24 bg-gray-900 text-gray-300 py-2 px-2">
       <div className="max-w-[1400px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8 px-4">
         <div>
           <ul>
-            <li className="py-1">О нас</li>
-            <li className="py-1">Блог</li>
-            <li className="py-1">Работа</li>
-            <li className="py-1">Новости</li>
-            <li className="py-1">Партнёры</li>
+            <li className="py-1" onClick={handleAbout}>
+              О нас
+            </li>
+            <li className="py-1" onClick={handleBlog}>
+              Туры
+            </li>
+            <li className="py-1" onClick={handleJob}>
+              Работа
+            </li>
+            <li className="py-1" onClick={handleNews}>
+              Новости
+            </li>
+            <li className="py-1" onClick={handlePartners}>
+              Партнёры
+            </li>
           </ul>
         </div>
         <div></div>
@@ -28,7 +59,9 @@ const Footer = () => {
               type="email"
               placeholder="Введите email"
             />
-            <button className="p-2 mb-4 rounded-md">Подписаться</button>
+            <button className="p-2 mb-4 rounded-md" onClick={handleSubscribe}>
+              Подписаться
+            </button>
           </form>
         </div>
       </div>

@@ -1,6 +1,9 @@
 import React from "react";
 
 const Hero = () => {
+  const handleStart = () => {
+    window.open("https://russiatourism.ru/kuda-poehat/", "_self");
+  };
   return (
     <div className="w-full h-screen">
       <img
@@ -20,7 +23,9 @@ const Hero = () => {
             красоту природы и уникальные культуры в каждом городе. Путеводитель
             по России начинается здесь. Приятного путешествия!
           </p>
-          <button className="bg-white text-black">Начать путешествие</button>
+          <button className="bg-white text-black" onClick={handleStart}>
+            Начать путешествие
+          </button>
         </div>
       </div>
     </div>
